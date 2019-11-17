@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-philips-bedside-lamp",
+  "version": "0.1.0",
+  "description": "Homebridge Plugin for Xiaomi Philips Zhirui Bedside Lamp",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "Xiaomi"
+  ],
+  "dependencies": {
+    "colorsys": "^1.0.22",
+    "miio": "^0.15.6"
+  },
+  "engines": {
+    "homebridge": ">=0.4.16",
+    "node": ">=7.2.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jerry Z"
+}
